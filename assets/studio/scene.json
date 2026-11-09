@@ -1,0 +1,138 @@
+{
+  "cameraName": "Camera | MAIN oblique entrance view",
+  "resolution": [
+    1600,
+    1000
+  ],
+  "lensMm": 60.0,
+  "sensorWidth": 36.0,
+  "sensorFit": "AUTO",
+  "hfovDeg": 33.3985,
+  "vfovDeg": 21.2393,
+  "blenderCameraLocation": [
+    5.64366,
+    -4.98288,
+    2.41637
+  ],
+  "gltfCameraLocation": [
+    5.64366,
+    2.41637,
+    4.98288
+  ],
+  "lamp": {
+    "name": "Light | warm practical desk lamp",
+    "color": [
+      1.0,
+      0.61,
+      0.3
+    ],
+    "energy": 24.0,
+    "size": [
+      0.1599999964237213,
+      0.25
+    ],
+    "shape": "DISK",
+    "gltfOrigin": [
+      0.48,
+      1.31,
+      -1.65
+    ],
+    "gltfRestTarget": [
+      0.48,
+      0.346,
+      -0.7049
+    ],
+    "blenderOrigin": [
+      0.48,
+      1.65,
+      1.31
+    ],
+    "blenderForward": [
+      -0.0,
+      -0.70007,
+      -0.71407
+    ]
+  },
+  "world": {
+    "color": [
+      0.045,
+      0.065,
+      0.11
+    ],
+    "strength": 0.2
+  },
+  "lights": [
+    {
+      "name": "Light | warm practical desk lamp",
+      "type": "AREA",
+      "color": [
+        1.0,
+        0.61,
+        0.3
+      ],
+      "energy": 24.0,
+      "gltfPosition": [
+        0.48,
+        1.31,
+        -1.65
+      ],
+      "gltfForward": [
+        -0.0,
+        -0.71407,
+        0.70007
+      ],
+      "size": [
+        0.1599999964237213,
+        0.25
+      ]
+    },
+    {
+      "name": "Light | cool window bounce",
+      "type": "AREA",
+      "color": [
+        0.4,
+        0.56,
+        1.0
+      ],
+      "energy": 85.80000305175781,
+      "gltfPosition": [
+        3.72966,
+        2.56809,
+        -4.42897
+      ],
+      "gltfForward": [
+        -0.75676,
+        -0.13052,
+        0.64054
+      ],
+      "size": [
+        1.4487268924713135,
+        1.0789439678192139
+      ]
+    },
+    {
+      "name": "Light | quiet room fill",
+      "type": "AREA",
+      "color": [
+        0.75,
+        0.75,
+        0.67
+      ],
+      "energy": 95.0,
+      "gltfPosition": [
+        3.2,
+        3.2,
+        1.7
+      ],
+      "gltfForward": [
+        -0.51763,
+        -0.46481,
+        -0.71834
+      ],
+      "size": [
+        3.5,
+        0.25
+      ]
+    }
+  ]
+}

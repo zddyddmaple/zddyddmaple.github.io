@@ -1,0 +1,14 @@
+{
+  "name": "studio-site",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "esbuild assets/js/studio.js --bundle --format=iife --outfile=assets/js/studio.bundle.js --minify"
+  },
+  "dependencies": {
+    "three": "0.170.0"
+  },
+  "devDependencies": {
+    "esbuild": "0.25.0"
+  }
+}
